@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-travel-info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
